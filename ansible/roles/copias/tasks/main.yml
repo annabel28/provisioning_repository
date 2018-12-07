@@ -1,0 +1,5 @@
+    - name: Add configuraction file in tmp folder
+      copy: src=files/configuration.conf dest=/tmp/configuration.conf
+
+    - name: Add index.html file in tmp folder
+      copy: src=files/index.html dest=/tmp/index.html
