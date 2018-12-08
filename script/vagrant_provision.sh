@@ -31,6 +31,14 @@ else
   echo "ansible-galaxy role: geerlingguy.apache already installed"
 fi  
 
+if ! sudo ansible-galaxy list | grep "geerlingguy.firewall";
+then
+  echo "Installing ansible-galaxy role geerlingguy.firewall"
+  sudo ansible-galaxy -f install geerlingguy.firewall
+else
+  echo "ansible-galaxy role: geerlingguy.firewall already installed"
+fi  
+
 if ! sudo ansible-galaxy list | grep "geerlingguy.mysql";
 then
   echo "Installing ansible-galaxy role geerlingguy.mysql"

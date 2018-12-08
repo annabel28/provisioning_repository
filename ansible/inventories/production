@@ -1,2 +1,2 @@
 [webservers]
-34.254.153.132 ansible_ssh_private_key_file=/ansible/files/entorno_web.pem ansible_user=root
+34.241.117.200 ansible_ssh_private_key_file=/ansible/files/entorno_web.pem ansible_user=root

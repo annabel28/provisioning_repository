@@ -20,4 +20,5 @@
   roles:
     - role: copias
     - { role: geerlingguy.apache }
+    - { role: geerlingguy.firewall }
     - { role: geerlingguy.mysql }
